@@ -10,8 +10,8 @@ The problem of localization on a geo-referenced aerial/satellite map given a que
 
 
 ### Network Architecture
-![CVM-Net-I](/img/cvm_net_I.png)
-![CVM-Net-II](/img/cvm_net_II.png)
+![CVM-Net-I](img/cvm_net_I.PNG)
+![CVM-Net-II](img/cvm_net_II.PNG)
 
 ### Experiment Dataset
 
