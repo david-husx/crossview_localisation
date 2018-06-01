@@ -14,28 +14,38 @@ The problem of localization on a geo-referenced aerial/satellite map given a que
 
 
 ### Experiment Dataset
+We use two existing dataset to do the experiments
+
+- CVUSA datset: a dataset in America, with pairs of ground-level images and satellite images. All ground-level images are panoramic images.  
+	[CVUSA] (https://github.com/viibridges/crossnet)
+
+- Vo and Hays' dataset: a dataset in America, with pairs of ground-level images and satellite images. All ground-level images are a crop of panoramic images.  
+	[Vo and Hays] (https://github.com/lugiavn/gt-crossview)
 
 
 ### Results
-
-| Network | CVUSA | Vo and Hays |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | 87.2%       | git diff      |
-
 The top 1% recall accuracy
 
-|     | CVUSA   | Vo and Hays   |
-| ---------  | :-----: | :------------:|
-| CVM-Net-I  | 91.4    |    67.9%      |
-| CVM-Net-I  | 87.2%   |    66.6%      |
+|           | CVUSA   |  Vo and Hays  |
+| --------- | :-----: | :------------:|
+| CVM-Net-I | 91.4%   |    67.9%      |
+| CVM-Net-I | 87.2%   |    66.6%      |
+
+
+### Codes
+Our CVM-Net is implemented in Tensorflow + python. You can change the parameters in train.py to use different models to train and test the network. 
+
+*input_data.py* is used to read the data and prepared data for the network. It is 
+
+The model will be saved after each epoch in directory CVM-Net/Models/.  
 
 
 ### Models
 Our network is implemented in Tensorflow. All models are tensorflow model.
 
-TO BE RELEASED SOON
+MODELS WILL BE RELEASED SOON
 
+We trained on a workstation with two NVIDIA 1080Ti GPUs. It took about 3 days.
 
 ### Publications
 This work is published in CVPR 2018.  
@@ -51,6 +61,7 @@ booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVP
 month = {June},  
 year = {2018}  
 }
+
 
 ### Acknowledgement
 This work is finished in Department of Computer Science, National University of Singapore.
