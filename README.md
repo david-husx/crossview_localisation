@@ -18,11 +18,24 @@ The problem of localization on a geo-referenced aerial/satellite map given a que
 
 
 ### Models
+The models are in /Models/ directory.
+
+Our network is implemented in Tensorflow. All models are tensorflow model.
+
+Under /Models/cvmnet_1/, it is the model trained on CVUSA dataset for our CVM-Net-I. 
+Under /Models/cvmnet_2/, it is the model trained on CVUSA dataset for our CVM-Net-II. 
 
 
 ### Publications
-
-
+If you are interested in our work and use our code, we are pleased that you can cite the following publication:
+S. Hu, M. Feng, R. M. H. Nguyen, G. H. Lee. CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization. In IEEE International Conference on Computer Vision, June 2018.
+@InProceedings{Hu_2017_CVPR,
+author = {Hu, Sixing and Feng, Mengdan and Nguyen, Rang M. H. and Lee, Gim Hee},
+title = {CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2018}
+}
 
 ### Acknowledgement
 This work is finished in Department of Computer Science, National University of Singapore.
