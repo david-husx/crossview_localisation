@@ -22,11 +22,11 @@ The models are in /Models/ directory.
 
 Our network is implemented in Tensorflow. All models are tensorflow model.
 
-Under /Models/cvmnet_1/, it is the model trained on CVUSA dataset for our CVM-Net-I.  
-Under /Models/cvmnet_2/, it is the model trained on CVUSA dataset for our CVM-Net-II. 
-
 
 ### Publications
+This work is published in CVPR 2018.  
+[CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localisation](2018_CVM-Net_CVPR.pdf)
+
 If you are interested in our work and use our code, we are pleased that you can cite the following publication:  
 *S. Hu, M. Feng, R. M. H. Nguyen, G. H. Lee. CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization. In IEEE International Conference on Computer Vision, June 2018.*
 
