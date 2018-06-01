@@ -24,10 +24,10 @@ The problem of localization on a geo-referenced aerial/satellite map given a que
 | git diff     | git diff       | git diff      |
 
 The top 1% recall accuracy
-|  Network   | CVUSA | Vo and Hays |
-| --------- | :-----: | :------------:|
-| CVM-Net-I | 91.4% |    67.9%    |
-| CVM-Net-I | 87.2% |    66.6%    |
+|  Network   | CVUSA   | Vo and Hays   |
+| ---------  | :-----: | :------------:|
+| CVM-Net-I  | 91.4    |    67.9%      |
+| CVM-Net-I  | 87.2%   |    66.6%      |
 
 
 ### Models
