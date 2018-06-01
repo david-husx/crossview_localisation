@@ -28,7 +28,7 @@ Under /Models/cvmnet_2/, it is the model trained on CVUSA dataset for our CVM-Ne
 
 ### Publications
 If you are interested in our work and use our code, we are pleased that you can cite the following publication:  
-S. Hu, M. Feng, R. M. H. Nguyen, G. H. Lee. CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization. In IEEE International Conference on Computer Vision, June 2018.
+*S. Hu, M. Feng, R. M. H. Nguyen, G. H. Lee. CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization. In IEEE International Conference on Computer Vision, June 2018.*
 
 @InProceedings{Hu_2017_CVPR,  
 author = {Hu, Sixing and Feng, Mengdan and Nguyen, Rang M. H. and Lee, Gim Hee},  
