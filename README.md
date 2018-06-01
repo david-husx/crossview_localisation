@@ -17,6 +17,11 @@ The problem of localization on a geo-referenced aerial/satellite map given a que
 
 
 ### Results
+The top 1% recall accuracy
+|           | CVUSA | Vo and Hays |
+| --------- | ----- | ------------|
+| CVM-Net-I | 91.4% |    67.9%    |
+| CVM-Net-I | 87.2% |    66.6%    |
 
 
 ### Models
