@@ -24,6 +24,7 @@ The problem of localization on a geo-referenced aerial/satellite map given a que
 | git diff     | 87.2%       | git diff      |
 
 The top 1% recall accuracy
+
 |     | CVUSA   | Vo and Hays   |
 | ---------  | :-----: | :------------:|
 | CVM-Net-I  | 91.4    |    67.9%      |
