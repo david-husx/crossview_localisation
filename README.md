@@ -47,7 +47,7 @@ We trained on a workstation with two NVIDIA 1080Ti GPUs. It took about 3 days.
 
 ### Publications
 This work is published in CVPR 2018.  
-[CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localisation](2018_CVM-Net_CVPR.pdf)
+[CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localisation](https://www.researchgate.net/publication/324438344_CVM-Net_Cross-View_Matching_Network_for_Image-Based_Ground-to-Aerial_Geo-Localization)
 
 If you are interested in our work and use our code, we are pleased that you can cite the following publication:  
 *S. Hu, M. Feng, R. M. H. Nguyen, G. H. Lee. CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization. In IEEE International Conference on Computer Vision, June 2018.*
