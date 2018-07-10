@@ -9,7 +9,7 @@ import os
 
 # --------------  configuration parameters  -------------- #
 # the type of network to be used: "CVM-NET-I" or "CVM-NET-II"
-network_type = 'CVM-NET-I'
+network_type = 'CVM-NET-II'
 
 batch_size = 12
 is_training = True
@@ -79,7 +79,7 @@ def compute_loss(sat_global, grd_global, batch_hard_count=0):
     return loss
 
 
-def train(start_epoch=0):
+def train(start_epoch=1):
     '''
     Train the network and do the test
     :param start_epoch: the epoch id start to train. The first epoch is 1.
@@ -127,7 +127,7 @@ def train(start_epoch=0):
         sess.run(tf.global_variables_initializer())
 
         print('load model...')
-        load_model_path = '../Model/' + network_type + '/' + str(start_epoch-1) + '/model.ckpt'
+        load_model_path = '../Model/' + network_type + '/' + str(start_epoch - 1) + '/model.ckpt'
         saver.restore(sess, load_model_path)
         print("   Model loaded from: %s" % load_model_path)
         print('load model...FINISHED')
@@ -153,8 +153,6 @@ def train(start_epoch=0):
                     sess.run(train_step, feed_dict=feed_dict)
 
                 iter += 1
-
-                break
             
             # ---------------------- validation ----------------------
             print('validate...')
@@ -192,4 +190,4 @@ def train(start_epoch=0):
 
 
 if __name__ == '__main__':
-    train(2)
+    train()
