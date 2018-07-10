@@ -1,1 +1,1 @@
-Please put the initial model of CVM-Net-I here to train the network.
+Please put the initial model of CVM-Net-I here to train the network. The model saved during training will also ne put here.
