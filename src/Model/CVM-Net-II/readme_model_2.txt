@@ -1,0 +1,1 @@
+Please put the initial model of CVM-Net-II here to train the network.

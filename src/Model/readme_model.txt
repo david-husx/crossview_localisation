@@ -1,0 +1,1 @@
+Please put the initial model here to train the network. The model saved during training will also ne put here.
