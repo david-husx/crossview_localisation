@@ -42,7 +42,7 @@ The model will be saved after each epoch in directory /src/CVM-Net/Models/.  The
 Our network is implemented in Tensorflow. All models are Tensorflow model.
 
 Please download the models from
-https://drive.google.com/file/d/1JtXz4q0kONNoEFE9tEfSCxLRuuJUWqIF/view?usp=sharing
+[here](https://drive.google.com/file/d/1JtXz4q0kONNoEFE9tEfSCxLRuuJUWqIF/view?usp=sharing)
 
 There are two models CVM-Net-I and CVM-Net-II respectively. The models in /init/ directory are the models used to initialise the model. The VGG16 part is initialised by the online model and other parts are initialised randomly. The other models are our trained models. You can use it to do evaluation.
 
