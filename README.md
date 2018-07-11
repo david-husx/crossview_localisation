@@ -46,6 +46,8 @@ https://drive.google.com/file/d/1JtXz4q0kONNoEFE9tEfSCxLRuuJUWqIF/view?usp=shari
 
 There are two models CVM-Net-I and CVM-Net-II respectively. The models in /init/ directory are the models used to initialise the model. The VGG16 part is initialised by the online model and other parts are initialised randomly. The other models are our trained models. You can use it to do evaluation.
 
+Please copy the model to \src\Model\CVM-Net-I\ or \src\Model\CVM-Net-II\ to let the network load the model.
+
 We trained on a workstation with two NVIDIA 1080Ti GPUs. It took about 3 days.
 
 ### Publications
