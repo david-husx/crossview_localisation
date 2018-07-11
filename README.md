@@ -55,7 +55,7 @@ This work is published in CVPR 2018.
 [CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localisation](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_CVM-Net_Cross-View_Matching_CVPR_2018_paper.pdf)
 
 If you are interested in our work and use our code, we are pleased that you can cite the following publication:  
-*S. Hu, M. Feng, R. M. H. Nguyen, G. H. Lee. CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization. In IEEE International Conference on Computer Vision, June 2018.*
+*S. Hu, M. Feng, R. M. H. Nguyen, G. H. Lee. CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2018.*
 
 @InProceedings{Hu_2018_CVPR,  
 author = {Hu, Sixing and Feng, Mengdan and Nguyen, Rang M. H. and Lee, Gim Hee},  
